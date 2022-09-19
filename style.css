@@ -1,0 +1,60 @@
+a:hover
+{
+    color: yellowgreen;
+}
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2
+{
+    border: ridge 3px lightgrey;
+    border-right: black, 3px, solid;
+    box-shadow: 6px 6px 10px lightslategray;
+}
+
+.flottant
+{
+	float: right;
+	border: groove 2px lightgrey;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color : rgb(0, 255, 209);
+    color: black;
+    clear: both;
+    box-shadow: 15px 15px 20px lightskyblue;
+}
+
+.Grostitre
+{
+	font-size: 3em;
+	font-family: 'ambleregular',"Arial black";
+	text-align: center ;
+	clear: both;
+    border: outset 2px turquoise;
+    box-shadow: 6px 6px 10px lightgoldenrodyellow;
+    text-shadow: 1px 1px 2px mediumturquoise;
+}
+
+.contenu
+{
+	clear: right;
+}
+
+body
+{
+    background-image: url(BackgroundCV.png);
+    background-size: 1520px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+}
